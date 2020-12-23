@@ -303,7 +303,7 @@ jobs:
     steps:
     - uses: actions/labeler@v3
       with:
-        repo-token: "${{ secrets.GH_PAT }}"
+        github_token: "${{ secrets.GH_PAT }}"
 ```
 
 Scenario:
